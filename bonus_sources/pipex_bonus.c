@@ -6,7 +6,7 @@
 /*   By: lzhang2 <lzhang2@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 17:19:46 by lzhang2           #+#    #+#             */
-/*   Updated: 2024/10/31 15:26:47 by lzhang2          ###   ########.fr       */
+/*   Updated: 2024/11/01 14:07:43 by lzhang2          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,7 +86,7 @@ void	execute_children(t_prog *prog)
 
 static void	generate_random_filename(char *temp_file, size_t length)
 {
-	const char		random_base[] = "abcdefg!#$%^&*()_+ABCDEF123456789";
+	const char		random_base[] = "abcdefg!#$^&()_+ABCDEF123456789";
 	size_t			random_base_size;
 	unsigned long	seed;
 	size_t			i;
